@@ -32,6 +32,12 @@
         "projectId": "3debeeb7-6287-4f41-9c90-c4e0513871c3"
       }
     },
-    "owner": "nwot"
+    "owner": "nwot",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3debeeb7-6287-4f41-9c90-c4e0513871c3"
+    }
   }
 }
