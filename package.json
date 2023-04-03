@@ -17,10 +17,10 @@
     "date-fns": "^2.29.3",
     "expo": "~48.0.9",
     "expo-status-bar": "~1.4.4",
-    "expo-updates": "~0.16.3",
+    "expo-updates": "~0.16.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "^0.71.4",
+    "react-native": "0.71.6",
     "react-native-chart-kit": "^6.12.0",
     "react-native-cli": "^2.0.1",
     "react-native-shared-group-preferences": "^1.1.23",
@@ -40,7 +40,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "2.8.7",
-    "typescript": "^5.0.3"
+    "typescript": "^4.9.4"
   },
   "private": true
 }
