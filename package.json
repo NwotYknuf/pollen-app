@@ -6,16 +6,41 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.*' --write",
+    "lint": "eslint . --ext .ts",
+    "publish": "expo-cli publish"
   },
   "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
+    "@react-navigation/native-stack": "^6.9.12",
+    "date-fns": "^2.29.3",
     "expo": "~48.0.9",
     "expo-status-bar": "~1.4.4",
+    "expo-updates": "~0.16.3",
     "react": "18.2.0",
-    "react-native": "0.71.4"
+    "react-dom": "18.2.0",
+    "react-native": "^0.71.4",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-cli": "^2.0.1",
+    "react-native-shared-group-preferences": "^1.1.23",
+    "react-native-svg": "13.4.0",
+    "react-native-web": "~0.18.10",
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@tsconfig/react-native": "^2.0.3",
+    "@types/jest": "^29.5.0",
+    "@types/react": "^18.0.32",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.7",
+    "typescript": "^5.0.3"
   },
   "private": true
 }

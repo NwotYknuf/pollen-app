@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "pollen-widget",
-    "slug": "pollen-widget",
+    "slug": "pollen",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nwot.pollen"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3debeeb7-6287-4f41-9c90-c4e0513871c3"
+      }
+    },
+    "owner": "nwot"
   }
 }
